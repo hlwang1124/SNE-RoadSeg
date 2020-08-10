@@ -12,7 +12,7 @@ In this repo, we provide the training and testing setup in the [KITTI Road Datas
 
 
 ## Setup
-Please setup the kitti dataset and pretrained weights according to the following folder structure:
+Please setup the KITTI dataset and pretrained weights according to the following folder structure:
 ```
 SNE-RoadSeg
  |-- checkpoints
