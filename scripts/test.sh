@@ -1,0 +1,1 @@
+python3 test.py --dataroot datasets/kitti --dataset kitti --name kitti --use_sne --prob_map --no_label --epoch kitti
