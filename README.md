@@ -12,7 +12,7 @@ In this repo, we provide the training and testing setup for the [KITTI Road Data
 
 
 ## Setup
-Please setup the KITTI dataset and pretrained weights according to the following folder structure:
+Please setup the KITTI Road Dataset and pretrained weights according to the following folder structure:
 ```
 SNE-RoadSeg
  |-- checkpoints
@@ -51,7 +51,7 @@ bash ./scripts/run_example.sh
 and you will see `normal.png`, `pred.png` and `prob_map.png` in `examples`. `normal.png` is the normal estimation by our SNE; `pred.png` is the freespace prediction by our SNE-RoadSeg; and `prob_map.png` is the probability map predicted by our SNE-RoadSeg.
 
 ### Testing for KITTI submission
-For KITTI submission, you need to setup the `checkpoint` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
+For KITTI submission, you need to setup the `checkpoints` and the `datasets/kitti/testing` folder as mentioned above. Then, run the following script:
 ```
 bash ./scripts/test.sh
 ```
@@ -60,7 +60,7 @@ and you will get the prediction results in `testresults`. After that you can fol
 If everything works fine, you will get a MaxF score of **96.74** for **URBAN**. Note that this is our re-implemented weights, and it is very similar to the reported ones in the paper (a MaxF score of **96.75** for **URBAN**).
 
 ### Training on the KITTI dataset
-For training, you need to setup the `dataset/kitti` folder as mentioned above. You can split the original training set into a new training set and a validation set as you like. Then, run the following script:
+For training, you need to setup the `datasets/kitti` folder as mentioned above. You can split the original training set into a new training set and a validation set as you like. Then, run the following script:
 ```
 bash ./scripts/train.sh
 ```
