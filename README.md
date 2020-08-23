@@ -7,6 +7,10 @@ This is the official pytorch implementation of [**SNE-RoadSeg: Incorporating Sur
 In this repo, we provide the training and testing setup for the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). We test our code in Python 3.7, CUDA 10.0, cuDNN 7 and PyTorch 1.1. We provide `Dockerfile` to build the docker image we use.
 
 <p align="center">
+<img src="doc/kitti.gif" width="100%"/>
+</p>
+
+<p align="center">
 <img src="doc/sne-roadseg.png" width="100%"/>
 </p>
 
