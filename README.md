@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This is the official pytorch implementation of [**SNE-RoadSeg: Incorporating Surface Normal Information into Semantic Segmentation for Accurate Freespace Detection**](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750341.pdf), accepted by [ECCV 2020](https://eccv2020.eu/). This is our [project page](https://sites.google.com/view/sne-roadseg).
+This is the official PyTorch implementation of [**SNE-RoadSeg: Incorporating Surface Normal Information into Semantic Segmentation for Accurate Freespace Detection**](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750341.pdf), accepted by [ECCV 2020](https://eccv2020.eu/). This is our [project page](https://sites.google.com/view/sne-roadseg).
 
 In this repo, we provide the training and testing setup for the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). We test our code in Python 3.7, CUDA 10.0, cuDNN 7 and PyTorch 1.1. We provide `Dockerfile` to build the docker image we use.
 
