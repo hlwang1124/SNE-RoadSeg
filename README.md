@@ -42,7 +42,7 @@ SNE-RoadSeg
  |-- examples
  ...
 ```
-`image_2`, `gt_image_2` and `calib` can be downloaded from the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). We implement `depth_u16` based on the LiDAR data provided in the KITTI Road Dataset, and it can be downloaded from [here](https://drive.google.com/file/d/16ft3_V8bMM-av5khZpP6_-Vtz-kF6X7c/view?usp=sharing). Note that `depth_u16` has the `uint16` data format, and the real depth in meters can be obtained by ``double(depth_u16)/1000``. Moreover, the pretrained weights `kitti_net_RoadSeg.pth` for our SNE-RoadSeg-152 can be downloaded from [here](https://drive.google.com/file/d/16ft3_V8bMM-av5khZpP6_-Vtz-kF6X7c/view?usp=sharing).
+`image_2`, `gt_image_2` and `calib` can be downloaded from the [KITTI Road Dataset](http://www.cvlibs.net/datasets/kitti/eval_road.php). We implement `depth_u16` based on the LiDAR data provided in the KITTI Road Dataset, and it can be downloaded from [here](https://drive.google.com/file/d/16ft3_V8bMM-av5khZpP6_-Vtz-kF6X7c/view?usp=sharing). Note that `depth_u16` has the `uint16` data format, and the real depth in meters can be obtained by ``double(depth_u16)/1000``. Moreover, the pretrained weights `kitti_net_RoadSeg.pth` for our SNE-RoadSeg-152 can be downloaded from [here](https://drive.google.com/file/d/17eqDPTs0Sv83Q7e-IWox_69bCbiXUzPU/view?usp=sharing).
 
 
 ## Usage
