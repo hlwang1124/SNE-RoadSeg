@@ -71,19 +71,18 @@ bash ./scripts/train.sh
 and the weights will be saved in `checkpoints` and the tensorboard record containing the loss curves as well as the performance on the validation set will be save in `runs`. Note that `use-sne` in `train.sh` controls if we will use our SNE model, and the default is True. If you delete it, our RoadSeg will take depth images as input, and you also need to delete `use-sne` in `test.sh` to avoid errors when testing.
 
 
-
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
 @inproceedings{fan2020sne,
-  author = {Fan, Rui and Wang, Hengli and Cai, Peide and Liu, Ming},
-  title = {SNE-RoadSeg: Incorporating Surface Normal Information into Semantic Segmentation for Accurate Freespace Detection},
-  booktitle = {Proceedings of the European Conference on Computer Vision (ECCV)},
-  year = {2020},
-  organization = {Springer},
+  title        = {{SNE-RoadSeg}: Incorporating surface normal information into semantic segmentation for accurate freespace detection},
+  author       = {Fan, Rui and Wang, Hengli and Cai, Peide and Liu, Ming},
+  booktitle    = {European Conference on Computer Vision},
+  pages        = {340--356},
+  year         = {2020},
+  organization = {Springer}
 }
 ```
-
 
 ## Acknowledgement
 Our code is inspired by [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), and we thank [Jun-Yan Zhu](https://github.com/junyanz) for their great work.
